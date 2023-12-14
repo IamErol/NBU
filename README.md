@@ -37,8 +37,8 @@ This guide will walk you through the steps required to run the Django applicatio
    pip install -r requirements.txt
    ```
    
-5. **To load env variables, you can use python-dotenv package. In your Django settings, do:**:
-
+5. **Create .env file and set DJANGO_SECRET_KEY. To load env variables, you can use python-dotenv package. In your Django settings, do:**
+   
    ```
    import os
    from dotenv import load_dotenv
@@ -57,11 +57,11 @@ This guide will walk you through the steps required to run the Django applicatio
 
 ## Usage
 
-1. **Upload 2 excel files.**
+1. **Upload 2 excel files. You can use sample files in 'excel_files' directory.**
+   
+3. **Click upload and merge.**
 
-2. **Click upload and merge.**
-
-3. **Download merged file.**
+4. **Download merged file.**
 
 
 
