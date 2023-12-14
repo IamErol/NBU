@@ -27,6 +27,6 @@ def upload_files(request):
         # Merging two files into one using concat function.
         merged_df = pd.concat([df1, df2])
         merged_df = merged_df.dropna(how='all')
-        merged_df.to_excel('static/merged_file.xlsx', index=False)
+        merged_df.to_excel('excel_files/merged_file.xlsx', index=False)
         return render(request, 'success.html', {'filename': 'merged_file.xlsx'})
     return render(request, 'upload.html')
