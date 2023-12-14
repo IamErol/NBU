@@ -37,7 +37,7 @@ This guide will walk you through the steps required to run the Django applicatio
    pip install -r requirements.txt
    ```
    
-5. **To load these variables, you can use python-dotenv package. In your Django settings, do:**:
+5. **To load env variables, you can use python-dotenv package. In your Django settings, do:**:
 
    ```
    import os
